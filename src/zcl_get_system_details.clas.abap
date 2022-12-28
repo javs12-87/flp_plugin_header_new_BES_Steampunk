@@ -34,7 +34,7 @@ CLASS ZCL_GET_SYSTEM_DETAILS IMPLEMENTATION.
             e_msg    = msg
           .
 
-        CONCATENATE lv_sid ':' lv_client INTO lv_result.
+        CONCATENATE lv_sid ':' lv_client ' with Embedded Steampunk' INTO lv_result.
 
       CATCH cx_root INTO DATA(lx_root).
     ENDTRY.
